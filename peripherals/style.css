@@ -51,3 +51,8 @@ body {
 .main-ad .first-part-ad .second-part-ad {
     display: inline-block;
 }
+img {
+    display:block;
+    margin: 0  auto;
+
+}
