@@ -32,6 +32,7 @@ body {
     position: fixed;
     top: 1em;
     left: 1em;
+    flex-wrap: wrap;
     H1{
         padding-inline-start: 1rem;
     }
