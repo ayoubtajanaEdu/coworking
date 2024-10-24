@@ -110,3 +110,22 @@ main {
 .main-ad li a:not(.overlay-link){
     z-index: 1;
 }
+.first-part-ad{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.second-part-ad{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+.third-part-ad{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
