@@ -169,7 +169,7 @@ main {
         padding: 1rem;
     }
     .specifcations{
-        span{
+        ul li span{
             font-weight: bold;
         }
     }
