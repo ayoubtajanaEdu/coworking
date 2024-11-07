@@ -44,6 +44,7 @@ body {
     padding: 2em;
     margin: 0;
     display: flex;
+    width: auto;
 }
 .navbar a {
     text-decoration: none;
@@ -53,8 +54,9 @@ body {
 .navbar li {
     display: inline-block;
     margin-left: 20px;
+    width: auto;
 }
-.navbar a:hover {
+.navbar li:hover {
     background-color:rgb(173, 105, 66);
     border-radius: 1em;
 }
@@ -64,4 +66,24 @@ body {
 main {
     margin-top: 6em;
 }
-
+@media (max-width:80rem) {
+    .navbar {
+        width: auto;
+        height: auto;
+        justify-content:center;
+        align-items: center;
+        h1 {
+            padding: 1em;
+        }
+        ul {
+            display: block;
+            li {
+                padding: 0.5em;
+                display: block;
+            }
+        }
+    }
+    main {
+        margin-top: 20rem;
+    }
+}
