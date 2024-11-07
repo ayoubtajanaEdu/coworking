@@ -134,5 +134,30 @@ main {
         flex-wrap: wrap;
     }
 }
-
+@media (max-width:80rem) {
+    .navbar {
+        width: auto;
+        height: auto;
+        justify-content:center;
+        align-items: center;
+        h1 {
+            padding: 1em;
+        }
+        ul {
+            display: block;
+            li {
+                padding: 0.5em;
+                display: block;
+            }
+        }
+    }
+    main {
+        margin-top: 20rem;
+    }
+}
+.kitty-page{
+    img{
+        margin:0rem;
+    }
+}
 /*hey daar*/
