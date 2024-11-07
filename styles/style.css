@@ -112,9 +112,14 @@ main {
     z-index: 1;
 }
 .first-part-ad{
+    position: absolute;
     ul{
         display: flex;
         flex-wrap: wrap;
+    }
+    
+    h2{
+        text-align: inherit;
     }
 }
 .second-part-ad{
@@ -130,4 +135,5 @@ main {
         flex-wrap: wrap;
     }
 }
+
 /*hey daar*/
