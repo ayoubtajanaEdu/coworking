@@ -172,5 +172,8 @@ main {
         ul li span{
             font-weight: bold;
         }
+        ul{
+            list-style: none;
+        }
     }
 }
