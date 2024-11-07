@@ -34,6 +34,8 @@ body {
     left: 1em;
     flex-wrap: wrap;
     z-index: 2;
+    margin-top: 0;
+    padding-top: 0;
     H1{
         padding-inline-start: 1rem;
     }
@@ -153,6 +155,15 @@ main {
     }
     main {
         margin-top: 20rem;
+    }
+}
+.kitty-page{
+    img{
+        margin:0rem;
+    }
+    a{
+        text-decoration: none;
+        color:#000000;
     }
 }
 /*hey daar*/
