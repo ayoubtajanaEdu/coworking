@@ -168,7 +168,9 @@ main {
     button{
         padding: 1rem;
     }
-}
-.bold{
-    font-weight: bold;
+    .specifcations{
+        span{
+            font-weight: bold;
+        }
+    }
 }
