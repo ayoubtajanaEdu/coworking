@@ -165,5 +165,10 @@ main {
         text-decoration: none;
         color:#000000;
     }
+    button{
+        padding: 1rem;
+    }
 }
-/*hey daar*/
+.bold{
+    font-weight: bold;
+}
