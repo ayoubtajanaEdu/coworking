@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     display: flex;
-    height: 4.5em;
+    height: auto;
     position: fixed;
     top: 1em;
     left: 1em;
@@ -36,6 +36,7 @@ body {
     z-index: 2;
     h1{
         padding-inline-start: 1rem;
+        padding-top: 1em;
     }
 }
 
@@ -44,7 +45,6 @@ body {
     padding: 2em;
     margin: 0;
     display: flex;
-    width: auto;
 }
 .navbar a {
     text-decoration: none;
@@ -52,9 +52,10 @@ body {
     padding: 1em;
 }
 .navbar li {
-    display: inline-block;
+    display: flex;
     margin-left: 20px;
-    width: auto;
+    justify-content: space-between;
+    align-items: end;
 }
 .navbar li:hover {
     background-color:rgb(173, 105, 66);
@@ -64,9 +65,9 @@ body {
     margin: 0;
 }
 main {
-    margin-top: 6em;
+    margin-top: 9em;
 }
-@media (max-width:80rem) {
+@media (max-width:40rem) {
     .navbar {
         width: auto;
         height: auto;
