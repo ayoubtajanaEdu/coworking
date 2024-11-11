@@ -168,12 +168,14 @@ main {
     button{
         padding: 1rem;
     }
-    .specifcations{
-        ul li span{
-            font-weight: bold;
-        }
-        ul{
-            list-style: none;
-        }
+    
+    
+}
+.specifcations{
+    ul li span{
+        font-weight: bold;
+    }
+    ul{
+        list-style: none;
     }
 }
