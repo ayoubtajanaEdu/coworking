@@ -1,0 +1,22 @@
+*, *::before, *::after {    
+    box-sizing: border-box;
+}
+:root {
+    font-family: sans-serif, serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    
+}
+
+/*
+-------------- Algemene Settings Containers -------------------
+*/
+
+.container {
+    max-width: 90rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
