@@ -8,4 +8,7 @@
     CSS
     JAVASCRIPT
     PHP
+   Dit project is opgeschort daarbij wil ik u doorverwijzen naar de volgende site:
+      
+       https://github.com/ayoubtajanaEdu/appledealershop
   
