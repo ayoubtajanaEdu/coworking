@@ -165,5 +165,17 @@ main {
         text-decoration: none;
         color:#000000;
     }
+    button{
+        padding: 1rem;
+    }
+    
+    
 }
-/*hey daar*/
+.specifcations{
+    ul li span{
+        font-weight: bold;
+    }
+    ul{
+        list-style: none;
+    }
+}
